@@ -1,18 +1,18 @@
 {
-  "name": "@omer-x/node-module",
+  "name": "@omer-x/next-utils",
   "version": "1.0.0",
-  "description": "UPDATE_HERE_WITH_A_MEANINGFUL_DESCRIPTION",
+  "description": "A collection of small, reusable utility functions for Next.js applications.",
   "keywords": [
     "typescript"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omermecitoglu/node-module.git"
+    "url": "git+https://github.com/omermecitoglu/next-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/omermecitoglu/node-module/issues"
+    "url": "https://github.com/omermecitoglu/next-utils/issues"
   },
-  "homepage": "https://github.com/omermecitoglu/node-module#readme",
+  "homepage": "https://github.com/omermecitoglu/next-utils#readme",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -42,11 +42,13 @@
     "dev": "tsup --watch",
     "build": "tsup"
   },
-  "dependencies": {
-    "react": "latest"
+  "peerDependencies": {
+    "client-only": "*",
+    "next": "^16",
+    "server-only": "*"
   },
   "devDependencies": {
-    "@omer-x/eslint-config": "^2.2.6",
+    "@omer-x/eslint-config": "^2.3.1",
     "@types/node": "^25.2.1",
     "@vitest/coverage-v8": "^4.0.18",
     "eslint": "^9.39.2",

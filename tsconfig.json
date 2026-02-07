@@ -3,16 +3,16 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "ESNext",
-    "allowJs": true,
+    "allowJs": false,
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "strict": true,
     "noUncheckedIndexedAccess": false,
+    "noImplicitReturns": true,
     "moduleResolution": "Bundler",
     "module": "ESNext",
     "noEmit": true,
     "paths": {
-      "~/*": ["./src/*"]
     },
   },
   "include": [
