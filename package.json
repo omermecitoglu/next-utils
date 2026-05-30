@@ -23,6 +23,9 @@
     "url": "https://omermecitoglu.github.io"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=23.8.0"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -34,6 +37,11 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
+    },
+    "./proxy": {
+      "types": "./dist/proxy/index.d.ts",
+      "import": "./dist/proxy/index.js",
+      "require": "./dist/proxy/index.cjs"
     }
   },
   "scripts": {
