@@ -40,6 +40,10 @@
     "./proxy": {
       "types": "./dist/proxy/index.d.mts",
       "import": "./dist/proxy/index.mjs"
+    },
+    "./search-params": {
+      "types": "./dist/search-params/index.d.mts",
+      "import": "./dist/search-params/index.mjs"
     }
   },
   "scripts": {
