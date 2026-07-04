@@ -1,17 +1,15 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "target": "ESNext",
-    "allowJs": false,
-    "resolveJsonModule": true,
-    "moduleDetection": "force",
-    "strict": true,
-    "noUncheckedIndexedAccess": false,
-    "noImplicitReturns": true,
-    "moduleResolution": "Bundler",
-    "module": "ESNext",
-    "noEmit": true,
+    "strict": true, // default in ts6, can be removed after upgrade
+    "module": "esnext", // default in ts6, can be removed after upgrade
+    "moduleResolution": "bundler", // default in ts6, can be removed after upgrade
+    "target": "esnext", // default in ts6, can be removed after upgrade
+    "rootDir": ".", // default in ts6, can be removed after upgrade
+    "noUncheckedSideEffectImports": true, // default in ts6, can be removed after upgrade
+    "libReplacement": false, // default in ts6, can be removed after upgrade
+    "types": ["node"],
+    "lib": ["ESNext"],
+    "noImplicitReturns": true, // because this is a library
     "paths": {
     },
   },
