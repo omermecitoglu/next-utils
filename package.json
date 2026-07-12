@@ -27,7 +27,7 @@
     "node": ">=23.8.0"
   },
   "type": "module",
-  "main": "./dist/index.mjs",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.mts",
   "files": [
     "dist/"
@@ -35,15 +35,15 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.mts",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.js"
     },
     "./proxy": {
       "types": "./dist/proxy/index.d.mts",
-      "import": "./dist/proxy/index.mjs"
+      "import": "./dist/proxy/index.js"
     },
     "./search-params": {
       "types": "./dist/search-params/index.d.mts",
-      "import": "./dist/search-params/index.mjs"
+      "import": "./dist/search-params/index.js"
     }
   },
   "scripts": {

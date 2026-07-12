@@ -6,5 +6,6 @@ export default defineConfig({
     "src/**/*.ts",
     "!src/**/*.test.ts",
   ],
+  fixedExtension: false,
   unbundle: true,
 });
