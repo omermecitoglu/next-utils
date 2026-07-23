@@ -28,21 +28,21 @@
   },
   "type": "module",
   "main": "./dist/index.js",
-  "types": "./dist/index.d.mts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist/"
   ],
   "exports": {
     ".": {
-      "types": "./dist/index.d.mts",
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     },
     "./proxy": {
-      "types": "./dist/proxy/index.d.mts",
+      "types": "./dist/proxy/index.d.ts",
       "import": "./dist/proxy/index.js"
     },
     "./search-params": {
-      "types": "./dist/search-params/index.d.mts",
+      "types": "./dist/search-params/index.d.ts",
       "import": "./dist/search-params/index.js"
     }
   },
